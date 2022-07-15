@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue : rgb(38, 76, 116);
+}
+
+body {
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1,
+h2 {
+     text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    border: solid 4px var(--blue);
+    border-radius: 5px;
+    background-color: rgb(169, 182, 196);
+    text-align: center;
+    padding: 2vw;
+}
+
+table input {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btns-box {
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btns-box a {
+    width: 250px;
+    display: block;
+    margin: 1vw;
+    border: solid 3px transparent;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 25px;
+    padding: .9vw 1.3vw;
+    text-decoration: none;
+}
+
+.btn-sub {
+    margin: 1vw;
+    border: solid 3px transparent;
+    background-color: var(--blue);
+    color: white;
+    padding: 1vw 1.5vw;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.mod {
+    padding: .5vw 1vw;
+    border-radius: 5px;
+}
+.mod:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+.btn-sub:hover {
+    color: var(--blue);
+    background-color: white;
+}
+
+.btns-box a:hover {
+    border: solid 3px var(--blue);
+    background-color: transparent;
+    color: var(--blue);
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover,
+table input:hover {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.add {
+    width: 60%;
+    margin: auto;
+    border: solid 10px var(--blue);
+    border-radius: 5px;
+    background-color: rgb(156, 173, 173);
+    text-align: center;
+    padding: 2vw; 
+}
+
+.add input {
+    border-radius: 15px;
+    padding: .5em 1em; 
+    border: solid 2px transparent;
+}
+
+.form-item {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw ;
+
+}
+
+.add .btn {
+    border-radius: 15px;
+    padding: .5em 2em; 
+    border: solid 2px transparent;
+    cursor: pointer;
+}
+
+
+.add .btn:hover  {
+    background-color: rgb(184, 146, 90);
+    color: #fff
+}
+
+.error {
+    color: red;
+}
